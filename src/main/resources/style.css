@@ -1,0 +1,13 @@
+.list-cell {
+    -fx-font-family: Monospaced;
+    -fx-font-size: 12.0;
+    -fx-font: bold;
+}
+
+.list-cell:odd {
+    -fx-background-color: lightcyan;
+}
+
+.list-cell:selected {
+    -fx-background-color: cornflowerblue;
+}
